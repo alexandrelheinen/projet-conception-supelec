@@ -45,7 +45,7 @@ void MLX90620::loop()
       counter = 0;
 
    // read and calculate
-   readIRDATA(sensorData); // gets the lecture from the sensor
+   readIR();              // gets the lecture from the sensor
    readCPIX();
    calculateTO();
 
